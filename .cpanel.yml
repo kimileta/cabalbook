@@ -3,9 +3,9 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/cabalcyo/public_html/
     - /bin/cp -R includes $DEPLOYPATH
-	- /bin/cp -R languages $DEPLOYPATH
-	- /bin/cp -R plugins $DEPLOYPATH
-	- /bin/cp -R requests $DEPLOYPATH
-	- /bin/cp -R sources $DEPLOYPATH
-	- /bin/cp -R themes $DEPLOYPATH
-	- /bin/cp -R uploads $DEPLOYPATH
+    - /bin/cp -R languages $DEPLOYPATH
+    - /bin/cp -R plugins $DEPLOYPATH
+    - /bin/cp -R requests $DEPLOYPATH
+    - /bin/cp -R sources $DEPLOYPATH
+    - /bin/cp -R themes $DEPLOYPATH
+    - /bin/cp -R uploads $DEPLOYPATH
